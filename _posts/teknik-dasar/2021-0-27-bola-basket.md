@@ -1,6 +1,6 @@
 ---
-title: Post with Header Image
-tags: TeXt
+title: bola basket
+tags: Bola Basket, Teknik Dasar
 article_header:
   type: cover
   image:
