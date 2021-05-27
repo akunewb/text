@@ -10,15 +10,6 @@
 #    |  |  | .-. :  .'    \ '-.  .-'
 #    |  |  \   --. /  .'.  \  |  |
 #    `--'   `----''--'   '--' `--'
----
-layout: articles
-title: Tips Random Blog | Belajar Perhotelan
-   data_source: site.sample_page
-   show_excerpt: true
-   show_readmore: true
-   show_info: true
----
-
 
 
 ## => Site Settings
@@ -27,14 +18,13 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://akunewb.github.io/text # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : Tips Random
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
-
+Belajar Teknik Dasar Bola Basket
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
+lang: "id" # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
@@ -42,7 +32,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Tips Random
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
@@ -62,7 +52,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: akunewb/text
 repository_tree: master
 
 
@@ -70,7 +60,7 @@ repository_tree: master
 ##############################
 paths:
   root    : # title link url, "/" (default)
-  home    : # home layout url, "/" (default)
+  home    : "/" # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
@@ -129,7 +119,7 @@ comments:
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: adminperkantoran # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
